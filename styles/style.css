@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b3a700;
+}
+
+.container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.calculator{
+    background-color: #1d1b1b;
+    width: 300px;
+    height: 470px;
+    border-radius: 15px;
+}
+
+
+
+.container-screen{
+    background-color: #614040;
+    margin: 15px;
+    width: 268px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 8px rgba(0, 0, 0);
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen{
+    width: 248px;
+    height: 60px;
+}
+
+.input-display{
+    background: none;
+    border: none;
+    width: 100%;
+    height: 26px;
+    text-align: right;
+    padding-top: 5px;
+    font-size: 20px;
+    color: #4dd110;
+}
+
+.output-display{
+    background: none;
+    border: none;
+    width: 100%;
+    height: 34px;
+    text-align: right;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 2px;
+    font-size: 30px;
+}
+
+
+
+.container-buttons{
+    width: 268px;
+    height: 355px;
+    margin: auto;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.button{
+    width: 61px;
+    height: 58px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.5); 
+    
+    font-size: 20px;
+}
+
+.button:hover{
+    transform: translateY(-5px);
+    transition: transform 0.3s;
+}
+
+.button-equal{
+    background-color: #e4622f;
+    width: 130px;
+    height: 58px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+.button-equal:hover{
+    background-color: #e79a7b;
+    transform: translateY(-5px);
+    transition: transform 0.3s;
+}
+
+.number{
+    background-color: #616161;
+    
+}
+
+.number:hover{
+    background-color: #b8a2a2;
+}
+
+.operator{
+    background-color: #e4622f;
+}
+
+.operator:hover{
+    background-color: #e79a7b;
+}
+
+.clear{
+    background-color: #8cf12e;
+}
+
+.clear:hover{
+    background-color: #9bb97f;
+}
+
+.back{
+    background-color: #8cf12e;
+}
+
+.back:hover{
+    background-color: #9bb97f;
+}
